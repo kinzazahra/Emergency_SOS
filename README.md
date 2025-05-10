@@ -49,6 +49,8 @@ python app.py
 
 ## 📸 Screenshots
 
+![image](https://github.com/user-attachments/assets/55e370a0-8f25-434f-bcb3-b4c47d153423)
+
 ![image](https://github.com/user-attachments/assets/afabfecd-4989-4420-bf7c-5d0f904fc751)
 
 
