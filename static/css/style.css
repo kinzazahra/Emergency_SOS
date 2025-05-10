@@ -1,1 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#map {
+    height: 300px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+ 
+/* Background gradient */
+body {
+  background: linear-gradient(to right, #ffe6e6, #e6f2ff);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Hero section */
+.hero-section {
+  background-color: #fff0f0;
+  border-radius: 1rem;
+  padding: 2rem;
+  box-shadow: 0 0 20px rgba(255, 99, 132, 0.2);
+}
+
+/* Custom card design */
+.card-custom {
+  border-left: 6px solid #0d6efd;
+  background-color: #f7faff;
+  border-radius: 10px;
+  transition: transform 0.2s ease;
+}
+.card-custom:hover {
+  transform: scale(1.02);
+}
+
+/* Footer */
+.footer {
+  background-color: #212529;
+  color: white;
+  font-size: 0.9rem;
+}
+
+/* Button effects */
+button.btn {
+  transition: all 0.2s ease;
+}
+button.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+}
  
