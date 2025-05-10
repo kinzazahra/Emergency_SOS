@@ -5,7 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Emergency SOS App</title>
   <script src="https://cdn.tailwindcss.com"></script>
-
 </head>
 <body class="bg-gray-100 flex items-center justify-center h-screen">
 
@@ -13,8 +12,15 @@
     <h1 class="text-3xl font-bold mb-6 text-red-600">Emergency SOS</h1>
 
     <button id="sos-btn" class="bg-red-500 hover:bg-red-600 text-white text-xl px-6 py-3 rounded-lg shadow-lg transition">
-      🚨 Send SOS
-    </button>
+  🚨 Send SOS
+</button>
+
+<!-- Stop Siren Button -->
+<button id="stop-btn" class="mt-4 bg-gray-500 hover:bg-gray-600 text-white text-lg px-4 py-2 rounded-lg shadow-md transition">
+  🛑 Stop Siren
+</button>
+
+
     <a href="/history" class="mt-6 inline-block text-blue-600 hover:underline">
         📜 View SOS History
       </a>
@@ -24,6 +30,5 @@
   </div>
 
   <script src="{{ url_for('static', filename='js/script.js') }}"></script>
-  <script type="module" src="authentication.js" defer></script>
 </body>
 </html>
