@@ -54,7 +54,5 @@ python app.py
 ![image](https://github.com/user-attachments/assets/afabfecd-4989-4420-bf7c-5d0f904fc751)
 
 
-## 📜 License
 
-This project is open-source. Modify and use freely for non-commercial purposes.
 
